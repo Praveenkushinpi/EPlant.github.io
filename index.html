@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EPlant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="plant-container">
+<h1>Take Care of Your Virtual Plant 🌱</h1>
+<div id="plant-area">
+<img id="plant" src="plant-happy.png" alt="Plant">
+<div id="plant-bubble">Hi! Take care of me! 🗨</div>
+</div>
+<div id="controls">
+<button onclick="waterPlant()">💧 Water</button>
+<button onclick="fertilizePlant()">🌿 Fertilize</button>
+<button onclick="openWindows()">🌞 Open Windows</button>
+</div>
+<div id="levels">
+<p>💧 Water Level: <span id="water-level">0</span></p>
+<p>🌿 Fertilizer Level: <span id="fertilizer-level">0</span></p>
+<p>🌞 Sunlight Level: <span id="sunlight-level">0</span></p>
+</div>
+<p id="plant-status">Your plant looks healthy!</p>
+</div>
+<audio id="background-music" autoplay loop>
+<source src="relaxing-music.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<script src="script.js"></script>
+</body>
+</html>
