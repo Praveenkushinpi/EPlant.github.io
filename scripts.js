@@ -37,15 +37,15 @@ sunlightLevelSpan.textContent = sunlightLevel;
 fertilizerLevelSpan.textContent = fertilizerLevel;
 
 if (waterLevel >= 5 && sunlightLevel >= 5 && fertilizerLevel >= 5) {
-plant.src = "(link unavailable)";
+plant.src = "https://cloud-n9d641swp-hack-club-bot.vercel.app/21000093454.gif";
 plantStatus.textContent = "Your plant is thriving! ";
 plantBubble.textContent = "I'm so happy! ";
 } else if (waterLevel >= 3 && sunlightLevel >= 3 && fertilizerLevel >= 3) {
-plant.src = "(link unavailable)";
+plant.src = "https://cloud-n9d641swp-hack-club-bot.vercel.app/11000093455.gif";
 plantStatus.textContent = "Your plant looks happy! ";
 plantBubble.textContent = "Keep up the good work! ";
 } else {
-plant.src = "(link unavailable)";
+plant.src = "https://cloud-n9d641swp-hack-club-bot.vercel.app/01000093459.gif";
 plantStatus.textContent = "Your plant needs care. ";
 plantBubble.textContent = "I need more love. ";
 }
